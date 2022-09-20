@@ -58,6 +58,7 @@ message QueryResponse {
   int32 tabular_count = 4;
   int32 binary_count = 5;
   int32 file_count = 6;
+  string beef = 7;
 }
 
 message TabularMetadata {
